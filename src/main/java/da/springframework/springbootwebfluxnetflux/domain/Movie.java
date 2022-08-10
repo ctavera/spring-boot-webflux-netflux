@@ -3,9 +3,8 @@ package da.springframework.springbootwebfluxnetflux.domain;
 import lombok.*;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@AllArgsConstructor
+@RequiredArgsConstructor
 @NoArgsConstructor
-@Builder
 @Data
 @Document
 public class Movie {
